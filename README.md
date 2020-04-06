@@ -1,4 +1,4 @@
 # commentChallenge
 
 
-## What the Challenge Encompassed
+### What the Challenge Encompassed
