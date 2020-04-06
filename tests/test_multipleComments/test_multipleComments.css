@@ -1,0 +1,176 @@
+:root {
+    --black50: rgb(50,50,50);
+    --grey150: rgb(150,150,150);
+    --grey200: rgb(200,200,200);
+    --grey210: rgb(210,210,210);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+    padding-top: 40px;
+}
+
+.commentsContainer {
+    min-width: 320px;
+    max-width: 620px;
+    margin: 0 auto;
+}
+
+.comment {
+    display: flex;
+    width: 100%;
+    margin-top: -1px; /* avoids doubling thickness of border lines when multiple comments stacked */
+    padding-top: 23px;
+    padding-bottom: 17px;
+    border-width: 1px 0;
+    border-style: solid;
+    border-color: rgb(234,234,234);
+}
+
+.imageColumn {
+    width: 68px;
+}
+
+.imageColumn img {
+    display: block;
+    width: 42px;
+    height: 42px;
+    margin: 0 auto;
+    border-radius: 42px;
+}
+
+.commentColumn {
+    width: 89%;
+}
+
+.comment header {
+    display: flex;
+}
+
+.comment .name {
+    color: var(--black50);
+    font-family: helvetica, arial, sans-serif;
+    font-size: 15px;
+}
+
+.comment .title {
+    height: 17px;
+    margin-left: 4px;
+    padding: 4px 10px 0;
+    text-align: center;
+    border-radius: 63px;
+    background-color: var(--black50);
+    color: rgb(247,247,247);
+    font-family: arial, san-serif;
+    font-size: 10px;
+    font-weight: bold;
+    -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+}
+
+.comment header span {
+    margin-top: -6px;
+    margin-left: 5px;
+    font-size: 18px;
+    color: var(--grey150);
+}
+
+.comment header time {
+    margin-top: 4px;
+    margin-left: 5px;
+    font-family: arial, sans-serif;
+    font-size: 10px;
+    color: var(--grey150)
+}
+
+.comment .text {
+    width: 98%;
+    margin-top: 8px;
+    font-family: helvetica neue, arial, sans-serif;
+    font-size: 15px;
+    color: var(--black50);
+    letter-spacing: 0.30px;
+    line-height: 24px;
+}
+
+.comment footer {
+    display: flex;
+    margin-top: 8px;
+    font-family: arial, san-serif;
+    font-size: 10px;
+    color: var(--grey200);
+    user-select: none;
+}
+
+.comment .replyDropper {
+    margin-left: 16px;
+}
+
+.comment .replyDropper span {
+    color: var(--grey150);
+}
+
+.comment .upvoteButton,
+.comment .downvoteButton {
+    display: flex;
+    margin-left: 20px;
+}
+
+.upvoteButton .chevron,
+.downvoteButton .chevron {
+    width: 8px;
+    height: 8px;
+    border-color: var(--grey210);
+}
+
+.chevron {
+    border-width: 2px 2px 0 0;
+    border-style: solid;
+    border-radius: 1px;
+}
+
+.chevron.up {
+    margin-top: 4px;
+    transform: rotate(-45deg);
+}
+
+.chevron.down {
+    transform: rotate(135deg);
+}
+
+.comment .upvotes,
+.comment .downvotes {
+    margin-left: 6px;
+    border-color: var(--grey200);
+}
+
+/* Hover Targets */
+.comment:hover .commentColumn footer,
+.comment:hover .replyDropper span,
+.comment:hover .upvoteButton .chevron,
+.comment:hover .downvoteButton .chevron {
+    color: var(--black50);
+    border-color: var(--black50);
+    transition: color 0.3s ease-out, border 0.3s ease-out;
+    transition-delay: 0.15s;
+}
+
+.comment .commentColumn footer,
+.comment .replyDropper span,
+.comment .upvoteButton .chevron,
+.comment .downvoteButton .chevron {
+    transition: color 0.2s ease-out, border 0.2s ease-out;
+}
+
+.comment .replyButton,
+.comment .replyDropper,
+.comment .upvoteButton,
+.comment .downvoteButton {
+    cursor: pointer;
+}
