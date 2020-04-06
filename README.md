@@ -109,4 +109,4 @@ Merely detecting by a smaller screen size to assume mobile is an incomplete solu
 
 Another solution could be to detect specific browser OS. But this is an inconsistent solution as there are many different browser OS to detect, sometimes the OS string used for the detection is changed by the vendor, and new browser OS strings are introduced for new implementations. This solution would always be trying to catch a constantly moving target.
 
-The last solution I know of is to detect for touch-enabled features on the document when it loads, and if touch-enabled features are detected, then serve the persistently darkened footer. Still, this would mean that devices like the laptops with touch-enabled screens would not have the UI with the hovers effects.
+The last solution I know of is to detect for touch-enabled features on the document when it loads, and if touch-enabled features are detected, then serve the persistently darkened footer. Still, this would mean that devices like the laptops with touch-enabled screens would not have the UI with the hover effects.
