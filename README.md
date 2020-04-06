@@ -102,7 +102,7 @@ The other included tests are nothing to write home about. One other is to test t
 
 ### Last Comments
 
-The challenge requires that one have the footer elements light in color while darkening on hover. This UI feature would probably be advised against because there is the problem of touch screens. On these type of screens one would always want to footer elements to be darkened for visual clarity. Solutions could be deployed to have the hover effect for desktops and a persistently dark footer for touch devices. Still, a neat and consistent solution does not exist.
+The challenge requires that one have the footer elements light in color while darkening on hover. This UI feature would probably be advised against because there is the problem of touch screens. On these type of screens one would always want the footer elements to be darkened for visual clarity. Solutions could be deployed to have the hover effect for desktops and a persistently dark footer for touch devices. Still, a neat and consistent solution does not exist.
 
 Merely detecting by a smaller screen size to assume mobile is an incomplete solution since tablets like the iPad Pro have longwise pixel widths larger than some laptops. There are also laptops with touch-enabled screens. These cases would not be covered by merely assuming a smaller screen size for mobile.
 
