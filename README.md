@@ -76,7 +76,8 @@ The function takes as input the ms since UNIX epoch that the comment was publish
 - the `{n} REPLIES` information in the comment footer also employs proper grammar.
 - the specific counts for `{time} AGO`, `{n} REPLIES`, as well as the upvote/downvote counts will insert commas into the number for increased readability.
 - if there is no provided profile picture in the input, a default placeholder will be used instead.
-- the visual scale and style of the comment is almost an exact 1-1 representation of the provided mock. The colours were approximately matched with a color-find tool in a vector drawing program. Regarding color matching, the number of the `{n} REPLIES` part of the comment footer shows slightly darker than the other lighter elements in the footer in the mock. I also copied this odd visual artifact. - the desired hover effect is detailed in that it employs a transition-delay. This is beneficial because fast mouse movements over comments will not instantly darken the text and this cuts down on visual noise. Also, the transition to darker text is slightly faster than the transition to lighter text. A small change that adds to perceived smoothness.
+- the visual scale and style of the comment is almost an exact 1-1 representation of the provided mock. The colours were approximately matched with a color-find tool in a vector drawing program. Regarding color matching, the number of the `{n} REPLIES` part of the comment footer shows slightly darker than the other lighter elements in the footer in the mock. I also copied this odd visual artifact.
+- the desired hover effect is detailed in that it employs a transition-delay. This is beneficial because fast mouse movements over comments will not instantly darken the text and this cuts down on visual noise. Also, the transition to darker text is slightly faster than the transition to lighter text. A small change that adds to perceived smoothness.
 
 ###### Visual Differences
 
