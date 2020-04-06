@@ -81,7 +81,7 @@ The function takes as input the ms since UNIX epoch that the comment was publish
 
 ###### Visual Differences
 
-The only somewhat obvious difference between my output and the provided mock is the font-family. I used Helvetica as a close approximation of the comment's text body. This isn't 100% correct and the difference shows with with the periods and dotted letters. The mock's dots are smaller and rounder, while Helvetica uses larger and more square-ish dots. Also, the `{time} AGO` text at the top of the comment is very close to Arial, which is what I used. But you can tell that it isn't exactly Arial by the shape of the "O" in "AGO". It's more narrow in the mock.
+The only somewhat obvious difference between my output and the provided mock is the font-family. I used Helvetica as a close approximation of the comment's text body. This isn't 100% correct and the difference shows with the periods and dotted letters. The mock's dots are smaller and rounder, while Helvetica uses larger and more square-ish dots. Also, the `{time} AGO` text at the top of the comment is very close to Arial, which is what I used. But you can tell that it isn't exactly Arial by the shape of the "O" in "AGO". It's more narrow in the mock.
 
 
 ### Testing
