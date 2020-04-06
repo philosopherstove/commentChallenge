@@ -94,7 +94,7 @@ The main function to test was the getViewTimeString function. This is because it
 
 The array of inputs included measures of time in ms that ranged from under a minute to 1 million weeks. I included values where I expected grammar appropriate for a singular unit, as well as 1 ms before and after each of these singular outliers.
 
-The array of outputs contained the expected strings at each input index. The truth value result of the test at each index was determined by comparing the returned input from the function in question with the corresponding expected string from the output array.
+The array of outputs contained the expected strings for each input at the related index. The truth value result of the test at each index was determined by comparing the returned input from the function in question with the corresponding expected string from the output array.
 
 This test yielded a surprising beneficial result by catching an error in comment.js at line 128, within the "else if" block that tests between "1hr - 1hr:59min". It had caught an extra space at the end of the viewTimeString. This error would not have been caught upon visual inspection of the interface because there would have been no visual indication of this error.
 
