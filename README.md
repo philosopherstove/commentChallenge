@@ -44,7 +44,7 @@ The input variable stores the data object for the comment. The object itself was
 
 ###### Main Function: **_createAppendComment(input)_**
 
-The main part of the JavaScript file is the createAppendComment function. This function does the main work of the challenge. It takes in the input object, processes the input, defines an HTML template string with the inputs inserted, and appends the HTML template string into the commentsContainer div. The newer insertAdjacentHTML JS method is used for the appending operation. This newer method overcomes the downfall of using the addition-assignment(+=) operator to insert innerHTML into the DOM, namely losing reference to other elements within the append destination element.
+The main part of the JavaScript file is the createAppendComment function. This function does the main work of the challenge. It takes in the input object, processes the input, defines an HTML template string with the processed inputs inserted, and appends the HTML template string into the commentsContainer div. The newer insertAdjacentHTML JS method is used for the appending operation. This newer method overcomes the downfall of using the addition-assignment(+=) operator to insert innerHTML into the DOM, namely losing reference to other elements within the append destination element.
 
 ###### There are four other functions to mention:
 
