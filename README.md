@@ -6,6 +6,7 @@
 ###### One may also pull the files and open the top level HTML file(index.html) in a browser.
 
 
+
 ### What the Challenge Encompassed
 
 The challenge was to create a JavaScript comment component that met the following requirements:
