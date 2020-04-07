@@ -1,5 +1,10 @@
 # commentChallenge
 
+### Access
+
+###### To view the live results of the challenge, click the link at the top of this page.
+###### One may also pull the files and open the top level HTML file(index.html) in a browser.
+
 
 ### What the Challenge Encompassed
 
